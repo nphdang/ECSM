@@ -577,7 +577,7 @@ namespace ECSM
             double minDev = double.Parse(txtMinDev.Text.Trim()) / 100;
             TreeNode tnode = treeResult.Nodes.Add("alpha = " + txtAlpha.Text + ", minDev = " + txtMinDev.Text + "%");
             Dataset dt = readData(_sFileData);
-            // 10-fold validation
+            // 10-fold cross validation
             int tr_row = (int) Math.Round(dt.row * 0.9);            
             int te_row = dt.row - tr_row;
             Stopwatch sw = Stopwatch.StartNew();

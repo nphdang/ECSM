@@ -1,0 +1,14 @@
+Young,Middle-aged,Senior,Old
+Federal-Govt,Not-Working,Other-Govt,Private,Self-Employed
+Associates,Bachelors,Doctorate,Dropout,HS-Graduate,Masters,Prof-School
+Married,Never-Married,Not-Married,Widowed
+Admin,Blue-Collar,Military,Other-Occupations,Professional,Sales,Service,White-Collar
+Husband,Not-in-family,Other-relative,Own-child,Unmarried,Wife
+Amer-Indian,Asian,Black,Other,White
+Female,Male
+None,Low,High
+None,Low,High
+Part-time,Full-time,Over-time,Workaholic
+British-Commonwealth,China,Euro_1,Euro_2,Latin-America,Other,SE-Asia,South-America,United-States
+<=50K,>50K
+age,type_employer,education,marital,occupation,relationship,race,sex,capital_gain,capital_loss,hr_per_week,country,income
